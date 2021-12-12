@@ -13,7 +13,7 @@
     2.5) Select the proper network according to: */MODELS_{NOISE}/IT_{ITERATION}/tfModel_{NOLSE CLASSIFICATION}_{SVM CLASSIFICATION}.h5* <br/>
  3) The predicted singular values are used to reconstruct each 3D block.  <br/>
  4) Through the block-matching aggregation, an iteration of the method is completed. <br/>
- 5) You can proceed with the next iteration (starting from point 1, where the input image is now the output of point 4) ). You can apply a maximum number of FIVE iterations. <br/>
+ 5) You can proceed with the next iteration (starting from point 1, where the input image is now the output of point 4 ). You can apply a maximum number of FIVE iterations. <br/>
     
     
  link1: https://ieeexplore.ieee.org/abstract/document/6600966 <br/>
