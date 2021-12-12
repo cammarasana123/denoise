@@ -1,4 +1,4 @@
-# Denoise algorithm
+# Learning-Based Low-Rank Denoising
  In this repository, you can find the trained networks for the prediction of the optimal singular values of the SVD.
 
  Short guide: <br/>
