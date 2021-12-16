@@ -4,7 +4,7 @@
  Short guide: <br/>
  1) Apply the block-matching algorithm to a 2D gray-scale image <br/>
     1.1) Patch size MUST be 7X7, stack size can be any number greater than 49.  <br/>
-    1.2) Apply the SVD to each 3D block. <br/>
+    1.2) Apply the economic SVD to each 3D block: *svd(block,'econ')*. <br/>
  2) Use the proper network to predict the optimal singular values. Networks are classified by:  <br/>
     2.1) Noise type and intensity: Gaussian (0-mean, 0.01 variance), Speckle (0.05-variance), Salt&Pepper (0.05 intensity); different noise types or intensities need a new training. This parameter is the NOISE. <br/>
     2.2) Iteration step: at each iteration, the proper network must be used. This parameter is the ITERATION. <br/>
