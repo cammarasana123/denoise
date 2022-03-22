@@ -1,4 +1,12 @@
-noiseType = 'gaussian','speckle','poisson','salt & pepper', 'exponential';
+I = groundTruthImage;
+%   noiseType = 'gaussian','speckle','poisson','salt & pepper', 'exponential';
+%   noisyImage = imnoise(I,'gaussian',0,0.01);
+%   noisyImage = imnoise(I,'gaussian',0,0.02);
+%   noisyImage = imnoise(I,'speckle',0.05);
+%   noisyImage = imnoise(I,'speckle',0.10);
+%   noisyImage = imnoise(I,'poisson');
+%   noisyImage = imnoise(I,'exponential');
+
 N = noisyImage;
 patchWidth = 49; %FIXED
 nofiter = 5; % FIXED
