@@ -1,0 +1,10 @@
+Folder parameters:
+5 iterations
+5 noise bins
+3 SVM clusters
+
+Each folder contains 5 subfolders, related to each iteration.
+For each iteration:
+- svm-uniformBins contains the intervals of the noise estimation. After estimating the noise of the 3D block, the user has to compute  which bin (from 1 to 5) the block belongs to.
+- svdmodel are the SVM models for the prediction of the SVM cluster. After identifying the noise bin, the user has to use the proper SVM predictor to compute the SVM cluster.
+- tfModel_<noise bin>_<SVM cluster>.h5 are the learning networks for predicting the optimal singular values.
