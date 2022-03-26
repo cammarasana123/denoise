@@ -15,7 +15,7 @@ nofbins = 5; %FIXED
 nofclusters = 3; FIXED
 stackSize = 90; %CAN BE CHANGED, > 49
 %-------------LOAD MODELS-----------------
-bins(nofbins+1,nofiter); = loadUniformBins();
+bins(nofbins,nofiter); = loadUniformBins();
 svmModels(nofbins,nofiter) = readModelSVM();
 learningModels(nofbins,nofclusters,nofiter) = readModelLearning();
 %----------------------------------------
