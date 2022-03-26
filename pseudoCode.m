@@ -5,7 +5,7 @@ I = groundTruthImage;
 %   noisyImage = imnoise(I,'speckle',0.05);
 %   noisyImage = imnoise(I,'speckle',0.10);
 %   noisyImage = imnoise(I,'poisson');
-%   noisyImage = imnoise(I,'exponential');
+%   noisyImage = imnoise(I,'salt & pepper');
 
 N = noisyImage;
 patchWidth = 49; %FIXED
