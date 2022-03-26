@@ -1,4 +1,4 @@
-I = groundTruthImage;
+I = uint8(groundTruthImage);
 %   noiseType = 'gaussian','speckle','poisson','salt & pepper', 'exponential';
 %   noisyImage = imnoise(I,'gaussian',0,0.01);
 %   noisyImage = imnoise(I,'gaussian',0,0.02);
@@ -6,6 +6,7 @@ I = groundTruthImage;
 %   noisyImage = imnoise(I,'speckle',0.10);
 %   noisyImage = imnoise(I,'poisson');
 %   noisyImage = imnoise(I,'salt & pepper');
+%   noisyImage = uint8(double(I) + exprnd(5,size(I)) 
 
 N = noisyImage;
 patchWidth = 49; %FIXED
