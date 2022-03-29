@@ -7,6 +7,6 @@ MODELS_SPECKLE_005: imnoise(I,'speckle',0.05);
 MODELS_SPECKLE_010: imnoise(I,'speckle',0.10);
 MODELS_SALT&PEPPER: imnoise(I,'salt & pepper);
 MODELS_POISSON: imnoise(I,'poisson');
-MODELS_EXPONENTIAL_5: uint8(double(I) + exprnd(5,size(I)) 
+MODELS_EXPONENTIAL_002: uint8(double(I) + exprnd(5,size(I)) 
 
 
