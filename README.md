@@ -7,14 +7,6 @@ Matlab2021b
 TEST FILE:
 main.m
 
-Here, you can test several noise type and intensities:
+Here, you can test the denoising of different images, with noise type and intensities.
 
-gaussian: 0.01 | 0.02
-
-speckle: 0.05 | 0.10
-
-salt & pepper: 0.05
-
-poisson: 1
-
-exponential: 5
+Comment: the maximum dimension allowed is 600 X 600. This comes out with an initial approach for the selection of the patches, that has been abandoned. If you want to test images with higher dimension, you need to modify the way the position of the patches is computed. Currently, this is performed by reading a text file; this can be optimised through numeric values of the patches to select.
