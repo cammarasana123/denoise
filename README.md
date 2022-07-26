@@ -6,3 +6,11 @@ Matlab2021b
 
 TEST FILE:
 main.m
+
+Here, you can test several noise type and intensities:
+
+gaussian: 0.01 | 0.02
+speckle: 0.05 | 0.10
+salt & pepper: 0.05 
+poisson: 1
+exponential: 5
