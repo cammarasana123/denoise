@@ -1,13 +1,14 @@
-# OVERVIEW
+# Overview
 Denosing algorithm with different noise type and intensities.
 Our method trains a network to predict the optimal thresholds of the singular value decomposition involved in the low-rank denoising of 2D images.
 
-# TEST
+# Test
 Launch the test file: *main.m*  
 
 You can set the:  
 -Ground truth input image;  
 -Noise type: *gaussian, speckle, salt & pepper, poisson, exponential*;  
+-Noise intensity: among the following parameters.  
 
 | Noise intensities  | Parameters | Parameters    |
 | ------------- | ------------- | ---|
@@ -23,7 +24,7 @@ The parameters have the following meaning:
 -*salt & pepper*: noise frequency;  
 -*exponential*: exponential factor.  
 
-# REQUIREMENT
+# Requirements
 Tested with Matlab2021b.  
 
 Toolbox:  
@@ -32,11 +33,13 @@ Toolbox:
 
 Comment: Warnings may occur when loading the networks, due to compatibility issues between Tensorflow and Matlab. However, this will not affect the final results.
 
-# REFERENCE
+# Reference
 Cammarasana, S., & Patane, G. (2022). Learning-based low-rank denoising. Signal, Image and Video Processing, 1-7.
 
-# RESULTS
-![a: speckle; b: salt & pepper; c: gaussian](https://raw.githubusercontent.com/cammarasana123/denoise/main/results/results.png)
+# Results
+We report a summary of the results; for further details, please refer to the paper.
+![image results](https://raw.githubusercontent.com/cammarasana123/denoise/main/results/results.png)
+*a: speckle; b: salt & pepper; c: gaussian*
 
-# COMMENT
+# Comment
 The maximum dimension allowed of the input image is 600 X 600. This comes out with an initial approach for the selection of the patches, that has been abandoned. If you want to test images with higher dimension, you need to modify the way the position of the patches is computed. Currently, this is performed by reading a text file; this can be optimised through numeric values of the patches to select.
