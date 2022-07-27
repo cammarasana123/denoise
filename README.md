@@ -43,4 +43,4 @@ We report a summary of the results; for further details, please refer to the pap
 *(a): speckle; (b): salt & pepper; (c): gaussian*
 
 # Comment
-The maximum dimension allowed of the input image is 600 X 600. This comes out with an initial approach for the selection of the patches, that has been abandoned. If you want to test images with higher dimension, you need to modify the way the position of the patches is computed. Currently, this is performed by reading a text file; this can be optimised through numeric values of the patches to select.
+The maximum dimension allowed of the input image is 600 X 600. This comes out with an initial approach for the selection of the patches, that has been abandoned. If you want to test images with higher dimension, you need to modify the way the position of the patches is computed. Currently, this is performed by reading a text file; this can be optimised through numeric values of the patches to be selected.
