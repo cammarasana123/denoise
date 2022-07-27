@@ -8,12 +8,14 @@ Launch the test file: *main.m*
 You can set the:  
 -Ground truth input image;  
 -Noise type: *gaussian, speckle, salt & pepper, poisson, exponential*;  
--Noise intensities, among the following:  
-	gaussian		0.01	0.02  
- 	speckle			0.05	0.10  
-	salt & pepper	0.05  
- 	poisson			1  
-	exponential		5  
+
+| Noise intensities  | Parameters | Parameters    |
+| ------------- | ------------- | ---|
+| gaussian  | 0.01  | 0.02 |
+| speckle   | 0.05  | 0.10 |
+| salt & pepper | 0.05 | - |
+| poisson | 1 | - |
+| exponential | 5 | - |
  
 The parameters have the following meaning:  
 -*gaussian*: variance of the distribution;  
