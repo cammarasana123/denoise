@@ -4,28 +4,29 @@ Our method trains a network to predict the optimal thresholds of the singular va
 
 # TEST
 Launch the test file: *main.m*  
+
 You can set the:  
-Ground-truth input image;  
-Noise type: *gaussian, speckle, salt & pepper, poisson, exponential*;  
-Noise intensities, among the following:  
- gaussian: 0.01 | 0.02  
- speckle: 0.05 | 0.10  
- salt & pepper: 0.05  
- poisson: 1  
- exponential: 5  
+-Ground truth input image;  
+-Noise type: *gaussian, speckle, salt & pepper, poisson, exponential*;  
+-Noise intensities, among the following:  
+	gaussian		0.01	0.02  
+ 	speckle			0.05	0.10  
+	salt & pepper	0.05  
+ 	poisson			1  
+	exponential		5  
  
 The parameters have the following meaning:  
-*gaussian*: variance of the distribution;  
-*speckle*: speckle variance;  
-*salt & pepper*: noise frequency;  
-*exponential*: exponential factor.  
+-*gaussian*: variance of the distribution;  
+-*speckle*: speckle variance;  
+-*salt & pepper*: noise frequency;  
+-*exponential*: exponential factor.  
 
 # REQUIREMENT
 Tested with Matlab2021b.  
 
 Toolbox:  
-Image processing  
-Deep Learning
+-Image processing  
+-Deep Learning
 
 Comment: Warnings may occur when loading the networks, due to compatibility issues between Tensorflow and Matlab. However, this will not affect the final results.
 
