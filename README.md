@@ -39,7 +39,8 @@ Cammarasana, S., & Patane, G. (2022). Learning-based low-rank denoising. Signal,
 # Results
 We report a summary of the results; for further details, please refer to the paper.
 ![image results](https://raw.githubusercontent.com/cammarasana123/denoise/main/results/results.png)
-*a: speckle; b: salt & pepper; c: gaussian*
+
+*(a): speckle; (b): salt & pepper; (c): gaussian*
 
 # Comment
 The maximum dimension allowed of the input image is 600 X 600. This comes out with an initial approach for the selection of the patches, that has been abandoned. If you want to test images with higher dimension, you need to modify the way the position of the patches is computed. Currently, this is performed by reading a text file; this can be optimised through numeric values of the patches to select.
