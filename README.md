@@ -15,10 +15,10 @@ Noise intensities, among the following:
  exponential: 5  
  
 The parameters have the following meaning:  
-gaussian: variance of the distribution;  
-speckle: speckle variance;  
-salt & pepper: noise frequency;  
-exponential: exponential factor.  
+*gaussian*: variance of the distribution;  
+*speckle*: speckle variance;  
+*salt & pepper*: noise frequency;  
+*exponential*: exponential factor.  
 
 # REQUIREMENT
 Tested with Matlab2021b.  
