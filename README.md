@@ -34,7 +34,7 @@ Toolbox:
 Comment: Warnings may occur when loading the networks, due to compatibility issues between Tensorflow and Matlab. However, this will not affect the final results.
 
 # Reference
-Cammarasana, S., & Patane, G. (2022). Learning-based low-rank denoising. Signal, Image and Video Processing, 1-7.
+Cammarasana, Simone, & Patanè, Giuseppe. (2022). Learning-based low-rank denoising. Signal, Image and Video Processing, 1-7.
 
 # Results
 We report a summary of the results; for further details, please refer to the paper.
